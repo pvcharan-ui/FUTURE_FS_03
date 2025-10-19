@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Concept Rebrand — Athletic Landing</title>
+  <meta name="description" content="Concept redesign of an athletic brand landing page — portfolio project (FUTURE_FS_03).">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <div class="brand">
+        <img src="images/logo-mark.jpg" alt="Athletic concept logo" style="height:28px; vertical-align:middle; margin-right:8px;">
+        <span>ATHLETIC · Concept</span>
+      </div>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#shop">Shop</a>
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
+        <button id="open-cart" class="cta" aria-haspopup="true" aria-controls="floating-cart">Cart (<span id="cart-count">0</span>)</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="home" role="region" aria-label="Hero">
+      <div class="wrap hero-grid">
+        <div class="hero-text">
+          <small class="eyebrow">Concept redesign</small>
+          <h1>Move Faster. Train Smarter.</h1>
+          <p class="lead">A modern, clean redesign focusing on product clarity, fast performance and bold visuals — concept for portfolio purposes.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#shop">Explore Collection</a>
+            <a class="btn ghost" href="#about">See Concept</a>
+          </div>
+        </div>
+
+        <div class="hero-media" aria-hidden="true">
+          <img src="images/hero-urban-runner.jpg" alt="Runner sprinting at sunrise — concept hero image">
+        </div>
+      </div>
+    </section>
+
+    <!-- Spotlight products -->
+    <section class="wrap section" id="shop" aria-label="Shop">
+      <h2 class="section-title">Featured</h2>
+
+      <div class="grid products-grid" id="products">
+        <!-- Product 1: Runner Sneaker -->
+        <article class="card" aria-labelledby="p1-title">
+          <img src="images/sneaker-mockup-1.jpg" alt="Minimalist running sneaker — concept mockup">
+          <div class="card-body">
+            <h3 id="p1-title">Runner Sneaker</h3>
+            <p class="price">₹7,499</p>
+            <p class="muted">Lightweight runner with breathable knit for faster strides.</p>
+
+            <div class="card-actions">
+              <button class="btn small view-btn"
+                data-id="1"
+                data-title="Runner Sneaker"
+                data-price="7499"
+                data-img="images/sneaker-mockup-1.jpg"
+                data-desc="Lightweight runner with breathable knit, engineered foam midsole, and grippy outsole.">View</button>
+
+              <button class="btn small outline add-btn"
+                data-id="1"
+                data-title="Runner Sneaker"
+                data-price="7499"
+                data-img="images/sneaker-mockup-1.jpg">Add to Cart</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Product 2: Performance Jacket -->
+        <article class="card" aria-labelledby="p2-title">
+          <img src="images/jacket-mockup-1.jpg" alt="Performance jacket — concept mockup">
+          <div class="card-body">
+            <h3 id="p2-title">Performance Jacket</h3>
+            <p class="price">₹5,299</p>
+            <p class="muted">Water-resistant shell, breathable lining, designed for high intensity training.</p>
+
+            <div class="card-actions">
+              <button class="btn small view-btn"
+                data-id="2"
+                data-title="Performance Jacket"
+                data-price="5299"
+                data-img="images/jacket-mockup-1.jpg"
+                data-desc="Water-resistant, breathable shell with articulated arms for dynamic movement.">View</button>
+
+              <button class="btn small outline add-btn"
+                data-id="2"
+                data-title="Performance Jacket"
+                data-price="5299"
+                data-img="images/jacket-mockup-1.jpg">Add to Cart</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Product 3: Training Shorts -->
+        <article class="card" aria-labelledby="p3-title">
+          <img src="images/training-shorts.jpg" alt="Training shorts — concept mockup">
+          <div class="card-body">
+            <h3 id="p3-title">Training Shorts</h3>
+            <p class="price">₹1,199</p>
+            <p class="muted">Quick-dry fabric with stretch for full range of motion during workouts.</p>
+
+            <div class="card-actions">
+              <button class="btn small view-btn"
+                data-id="3"
+                data-title="Training Shorts"
+                data-price="1199"
+                data-img="images/training-shorts.jpg"
+                data-desc="Quick-dry, flexible shorts with zip pocket and inner liner for support.">View</button>
+
+              <button class="btn small outline add-btn"
+                data-id="3"
+                data-title="Training Shorts"
+                data-price="1199"
+                data-img="images/training-shorts.jpg">Add to Cart</button>
+            </div>
+          </div>
+        </article>
+
+      </div> <!-- end products grid -->
+    </section>
+
+    <!-- Features -->
+    <section class="section-alt" id="features" aria-label="Features">
+      <div class="wrap features-grid">
+        <div class="feature">
+          <h4>Performance Materials</h4>
+          <p>Fabric engineered for breathability and speed.</p>
+        </div>
+        <div class="feature">
+          <h4>Lightweight Design</h4>
+          <p>Less weight, more efficiency — every gram counts.</p>
+        </div>
+        <div class="feature">
+          <h4>Sustainability</h4>
+          <p>Recycled materials and eco-conscious packaging.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About / concept note -->
+    <section class="wrap section" id="about">
+      <h2 class="section-title">About this concept</h2>
+      <p>This page is a portfolio <strong>concept redesign</strong> made for learning and demonstration. It is not official or endorsed. Visual assets were created or adapted for concept use.</p>
+      <ul>
+        <li>Focus: clean typography, fast visual hierarchy, bold CTA.</li>
+        <li>Made with: HTML, CSS; images: AI-generated placeholders.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>&copy; <span id="year"></span> Concept redesign — FUTURE_FS_03</p>
+      <div class="foot-links">
+        <a href="#">Privacy</a> · <a href="#">Terms</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Product View Modal -->
+  <div id="product-modal" class="product-modal hidden" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-backdrop"></div>
+    <div class="modal-panel" role="document">
+      <button id="modal-close" class="modal-close" aria-label="Close">×</button>
+      <div class="modal-content">
+        <img id="modal-img" src="" alt="" />
+        <div class="modal-info">
+          <h3 id="modal-title"></h3>
+          <p id="modal-price" class="price"></p>
+          <p id="modal-desc" class="muted">Product description placeholder. Replace with real text.</p>
+          <div class="modal-actions">
+            <button id="modal-add" class="btn">Add to cart</button>
+            <button id="modal-close-2" class="btn ghost">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating Cart Panel -->
+  <div id="floating-cart" class="floating-cart hidden" aria-hidden="true">
+    <div class="fc-header">
+      <strong>Your Cart</strong>
+      <button id="fc-close" aria-label="Close cart">×</button>
+    </div>
+    <div id="fc-items" class="fc-items"></div>
+    <div class="fc-footer">
+      <div>Total: ₹<span id="fc-total">0</span></div>
+      <div>
+        <button id="fc-checkout" class="btn">Checkout</button>
+        <button id="fc-clear" class="btn ghost">Clear</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById('year').innerText = new Date().getFullYear();
+  </script>
+
+  <!-- store script handles view modal & cart -->
+  <script src="store.js"></script>
+</body>
+</html>
