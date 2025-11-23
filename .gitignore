@@ -1,0 +1,27 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore environment files
+.env
+
+# Ignore logs
+*.log
+
+# Ignore cache
+/public/assets/products/*.tmp
+/public/assets/products/*.bak
+
+# Ignore sessions
+*.sess
+
+# Ignore XAMPP metadata
+xampp/
+
+# Ignore database binaries
+*.frm
+*.ibd
+*.db
+
+# Allow SQL exports
+!/sql/*.sql
